@@ -2,9 +2,9 @@
 
 int main(void) 
 {
-	int n1,n2,pro,i,flag=0;
+	int a,b,pro,i,flag=0;
 	printf("enter the two number:");
-	scanf("%d %d",&n1,&n2);
+	scanf("%d %d",&a,&b);
 	pro=n1*n2;
 	for(i=1;i<=pro/2;i++)
 	{
